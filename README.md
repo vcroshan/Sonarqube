@@ -6,7 +6,7 @@ Docker and docker-compose installed and docker service running
 Install Sonarqube using the docker-composefile
 docker-compose up -d 
 
-Once Sonarqube is up and running can be accessed using URL : http://<IP address>:9000
+Once Sonarqube is up and running can be accessed using URL : http://<<IP address>>:9000
 Default username and password : admin:admin
 
 Create a Project in Sonarqube and note down the project key
