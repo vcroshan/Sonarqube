@@ -33,7 +33,8 @@ In Jenkins install GitHub Branch Source plugin version 2.7.1 or later is require
 2. From the Jenkins Dashboard, navigate to Manage Jenkins > Configure System.
 3. From the GitHub or GitHub Enterprise Servers section, add your GitHub server.
 4. Click Save.
-  
+
+In Jenkins global tool configuration. Add Sonar Scanner tool and allow it automatically install the binary
 
 In the Maven based application build pom.xml add the following under build management -> plugins and push the changes to Github
           <plugin>
@@ -42,7 +43,6 @@ In the Maven based application build pom.xml add the following under build manag
         <version>3.7.0.1746</version>
       </plugin>
 
-  In Jenkins application build 
   
 add a build step Execute SonarQube  Scanner and add the below in additonal properties field
   sonar.host.url=URL
