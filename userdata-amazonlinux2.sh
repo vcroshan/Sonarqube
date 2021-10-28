@@ -16,4 +16,4 @@ sudo chmod +x /usr/local/bin/docker-compose
 #Add this command for sonarqube installation (only)
 sudo echo "vm.max_map_count = 262144" >> /etc/sysctl.d/99-sysctl.conf
 
-systemctl restart docker
+sudo systemctl restart docker
