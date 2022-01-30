@@ -1,6 +1,6 @@
 # Sonarqube
 Sonarqube installation pre-requisites
-A VM with minimum of 2 gb of RAM ( AWS t2.medium)
+A VM with minimum of 2 gb of RAM ( AWS t3.medium)
 Docker and docker-compose installed and docker service running
 
 Install Sonarqube using the docker-composefile
