@@ -19,4 +19,4 @@ sudo echo "vm.max_map_count = 262144" >> /etc/sysctl.d/99-sysctl.conf
 sudo systemctl restart docker
 
 sudo mkdir -p /opt/sonarqube/conf /opt/sonarqube/data /opt/sonarqube/extensions /opt/sonarqube/lib/bundled-plugins /opt/sonarqube/logs /var/lib/postgresql/data
-sudo chmod 777 -R /opt/sonarqube/conf /opt/sonarqube/data /opt/sonarqube/extensions /opt/sonarqube/lib/bundled-plugins /opt/sonarqube/logs /var/lib/postgresql/data
+sudo chmod 777 -R /opt/sonarqube /var/lib/postgresql
